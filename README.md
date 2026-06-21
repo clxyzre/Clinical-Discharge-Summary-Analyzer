@@ -43,8 +43,6 @@ Overall mortality rate: 18%
 Total patients: 50
 
 ## Visualizations
-### Clinical Clusters in Embedding Space
-![Clinical Clusters](clinical_clusters.png)
 
 ### Patient Outcomes in Embedding Space
 ![Outcome Space](outcome_space.png)
