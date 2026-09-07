@@ -2,10 +2,10 @@
 ## Bio_ClinicalBERT + Unsupervised Mortality Risk Clustering
 
 ## Overview
-An NLP pipeline that applies Bio_ClinicalBERT — a transformer model pretrained on clinical notes from MIMIC-III — to analyze discharge summaries and identify patient clusters with distinct mortality profiles. The model identifies mortality-predictive language patterns purely from unstructured clinical text, without using explicit risk scores or structured clinical variables.
+An NLP pipeline that applies Bio_ClinicalBERT, a transformer model pretrained on clinical notes from MIMIC-III, to analyze discharge summaries and identify patient clusters with distinct mortality profiles. The model identifies mortality-predictive language patterns purely from unstructured clinical text, without using explicit risk scores or structured clinical variables.
 
 ## Key Finding
-Bio_ClinicalBERT successfully identified a high-mortality patient cluster (Cluster 4) with 100% mortality rate and average age 76.7, dominated by multiorgan failure, end-stage malignancy, and refractory septic shock cases. A distinct low-risk cluster (Cluster 3) showed 0% mortality with average age 60.7. This separation emerged purely from semantic embeddings of clinical language — demonstrating that how physicians write about patients contains strong mortality signal.
+Bio_ClinicalBERT successfully identified a high-mortality patient cluster (Cluster 4) with 100% mortality rate and average age 76.7, dominated by multiorgan failure, end-stage malignancy, and refractory septic shock cases. A distinct low-risk cluster (Cluster 3) showed 0% mortality with average age 60.7. This separation emerged purely from semantic embeddings of clinical language demonstrating that how physicians write about patients contains strong mortality signal.
 
 ## Clinical Context
 Early identification of high-risk ICU patients from clinical documentation supports resource allocation, care escalation, and goals-of-care 
@@ -51,7 +51,7 @@ Total patients: 50
 ![Mortality Analysis](mortality_analysis.png)
 
 ## Relevance To Clinical AI
-This project directly mirrors production clinical NLP workflows at health AI companies — specifically document processing, unstructured text 
+This project directly mirrors production clinical NLP workflows at health AI companies, specifically document processing, unstructured text 
 extraction, and LLM-based pattern identification applied to real clinical scenarios. The Bio_ClinicalBERT model used here is the same architecture underlying many clinical NLP systems in active deployment.
 
 ## Tech Stack
@@ -65,7 +65,7 @@ pip install transformers torch scikit-learn pandas numpy
 Open clinical_discharge_analyzer.ipynb and run all cells.
 
 ## Connection To My Research
-This project extends my undergraduate research at UCLA Health Radiation Oncology, where I build quantitative predictive models using high-dimensional clinical datasets. The NLP approach here adds a language modeling layer to the structured data ML pipeline developed in my 
+This project extends my undergraduate research at UCLA Health Radiation Oncology, where I build quantitative predictive models using high-dimensional clinical datasets on prostatate. The NLP approach here adds a language modeling layer to the structured data ML pipeline developed in my 
 MIMIC-III mortality prediction project.
 
 ## Next Steps
