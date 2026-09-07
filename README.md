@@ -65,7 +65,7 @@ pip install transformers torch scikit-learn pandas numpy
 Open clinical_discharge_analyzer.ipynb and run all cells.
 
 ## Connection To My Research
-This project extends my undergraduate research at UCLA Health Radiation Oncology, where I build quantitative predictive models using high-dimensional clinical datasets on prostatate. The NLP approach here adds a language modeling layer to the structured data ML pipeline developed in my 
+This project extends my undergraduate research at UCLA Health Radiation Oncology, where I build quantitative predictive models using high-dimensional clinical datasets on prostate cancer patients using toxicity levels to predict how radiation treatments such as CT and MRI affect OARs(organs at risk) over periods of time. The NLP approach here adds a language modeling layer to the structured data ML pipeline developed in my 
 MIMIC-III mortality prediction project.
 
 ## Next Steps
